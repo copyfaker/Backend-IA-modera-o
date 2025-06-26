@@ -1,5 +1,5 @@
 import express from "express";
-import { moderateText } from "../services/moderationService.js";
+import { moderateText } from "./moderationService.js";
 
 const router = express.Router();
 
